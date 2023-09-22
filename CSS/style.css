@@ -1,0 +1,180 @@
+/*********************************TAG SELECTORS***********************************/
+body{background-color: #B0D9B1;
+margin: 0;
+text-align: center;}
+h1{color: #000000;
+font-family: 'Lemonada', cursive;
+margin: 0 auto 0 auto;
+display: inherit;
+}
+img{
+  width: 20%;
+  border-radius: 10px;
+}
+span{display: inline-block;}
+h4{
+  font-family: 'Lemonada', cursive;
+  font-size: 2 rem;
+  margin: 0 auto 0 auto;
+}
+hr{border-top-style: dotted;
+border-color: #618264;
+border-top-width: 7px;
+width:15%}
+table{
+  padding-left: 70px;
+}
+ul{
+text-align: center;
+list-style:inside;
+}
+/*********************************CLASS SELECTORS***********************************/
+.one{
+background: url('images/mountaim.jpg');
+width: 100%;
+}
+.two{
+position: absolute;
+top:15%;
+left: 40%;
+z-index: 10px;
+}
+.three{
+   position: absolute;
+top: 3%;
+left:5%;
+    height: 120px;
+    z-index: 12px;
+}
+.four{
+  position: absolute;
+top: 0;
+  right: 2%;
+  height: 200px;
+  z-index: 14px;
+}
+.five{position: absolute;
+  top: 150px;
+  left: 350px;
+ height: 130px;
+ z-index: 8px;
+}
+.six{
+      object-fit: contain;
+  width: 100%;
+}
+.seven{
+  text-align: center;
+  font-size: 25px;
+  position: absolute;
+  top: 55%;
+  left:30%;
+  z-index: 18px;
+
+}
+.eight{
+  padding-top: 80px;
+}
+.nine{
+  background-color: #618264;
+  margin: 0 ;
+}
+.icon{
+  width:10%;
+  margin: auto;
+}
+.content{
+  font-family: sans-serif;
+  text-align: center;
+  font-size: 25px;
+  margin-top: 30px;
+}
+.btn {
+  background: #3498db;
+  background-image: -webkit-linear-gradient(top, #3498db, #2980b9);
+  background-image: -moz-linear-gradient(top, #3498db, #2980b9);
+  background-image: -ms-linear-gradient(top, #3498db, #2980b9);
+  background-image: -o-linear-gradient(top, #3498db, #2980b9);
+  background-image: linear-gradient(to bottom, #3498db, #2980b9);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+  text-align: center;
+}
+
+.btn:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+.end{
+  background-color: #3EC1D3;
+  font-size: 20px;
+  text-align: center;
+  padding: 20px;
+}
+.contact{
+  text-align: justify;
+  margin-left: 50px;
+}
+.fa {
+  padding: 20px;
+text-align: center;
+  margin: 5px 2px;
+  font-size: 30px;
+  width: 50px;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+
+}
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+}
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+}
+.fa-pinterest {
+  background: #cb2027;
+  color: white;
+}
+.fa-linkedin {
+  background: #007bb5;
+  color: white;
+}
+.fa-instagram {
+  background: #125688;
+  color: white;
+}
+.fa-youtube {
+  background: #bb0000;
+  color: white;
+}
+.fa-google {
+  background: #dd4b39;
+  color: white;
+}
+.fa-snapchat-ghost {
+  background: #fffc00;
+  color: white;
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+}
+.fa-skype {
+  background: #00aff0;
+  color: white;
+}
+.fa:hover {
+    opacity: 0.9;
+}
